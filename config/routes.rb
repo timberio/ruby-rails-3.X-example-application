@@ -1,4 +1,6 @@
 RubyRails32ExampleApp::Application.routes.draw do
+  match "/welcome" => "welcome#index"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
